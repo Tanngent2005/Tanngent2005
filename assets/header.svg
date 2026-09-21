@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Yiyang Tan — ShanghaiTech University</title>
+  <desc id="desc">A dark terminal-inspired banner with cyan typography and an abstract time series signal. LLMs, Agents, Time Series.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080f1d"/>
+      <stop offset="1" stop-color="#111c30"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#42e8dd"/>
+      <stop offset="1" stop-color="#869cff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#254d66" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#254d66" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#81b6d5" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="348" rx="18" fill="url(#bg)" stroke="#2b3c52"/>
+  <rect x="1" y="1" width="1198" height="348" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="190" rx="290" ry="220" fill="url(#halo)"/>
+  <path d="M20 52H1180" stroke="#29384a"/>
+  <circle cx="30" cy="27" r="5" fill="#ff7285"/>
+  <circle cx="49" cy="27" r="5" fill="#f3c86c"/>
+  <circle cx="68" cy="27" r="5" fill="#4ed9af"/>
+  <text x="93" y="32" fill="#91a4bd" font-family="DejaVu Sans Mono,monospace" font-size="12">tanngent@shanghaitech: ~/research</text>
+  <text x="1118" y="32" fill="#6f859f" font-family="DejaVu Sans Mono,monospace" font-size="11">PROFILE</text>
+  <text x="48" y="102" fill="#52ded4" font-family="DejaVu Sans Mono,monospace" font-size="15">&gt; hello, world_</text>
+  <text x="45" y="169" fill="#f1f6fc" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700" font-size="56" letter-spacing="-2">Yiyang Tan</text>
+  <text x="49" y="205" fill="#a2b5cd" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Computer Science · ShanghaiTech University</text>
+  <g font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#c3f4f2">
+    <rect x="48" y="234" width="78" height="30" rx="6" fill="#102b36" stroke="#22505d"/>
+    <text x="69" y="254">LLMs</text>
+    <rect x="137" y="234" width="94" height="30" rx="6" fill="#102b36" stroke="#22505d"/>
+    <text x="160" y="254">AGENTS</text>
+    <rect x="242" y="234" width="138" height="30" rx="6" fill="#192940" stroke="#344463"/>
+    <text x="263" y="254" fill="#c4d0ff">TIME SERIES</text>
+  </g>
+  <text x="49" y="310" fill="#728ca7" font-family="DejaVu Sans Mono,monospace" font-size="12">reason · build · evaluate</text>
+  <g transform="translate(780 85)">
+    <text x="0" y="18" fill="#738da9" font-family="DejaVu Sans Mono,monospace" font-size="11" letter-spacing="2">SIGNALS / CONTEXT / REASONING</text>
+    <path d="M0 59H363 M0 112H363 M0 165H363" stroke="#476178" stroke-opacity=".25"/>
+    <path d="M248 40V186" stroke="#7a93af" stroke-opacity=".4" stroke-dasharray="4 6"/>
+    <path d="M0 143L22 143L38 119L56 130L79 82L98 112L115 101L139 154L159 110L179 126L201 65L222 91L248 78" fill="none" stroke="url(#line)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M248 78L273 57L298 74L325 41L350 55" fill="none" stroke="#99aaff" stroke-width="3" stroke-dasharray="5 6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="248" cy="78" r="6" fill="#091423" stroke="#64e3df" stroke-width="2"/>
+    <text x="0" y="216" fill="#7189a4" font-family="DejaVu Sans Mono,monospace" font-size="11">OBSERVE</text>
+    <text x="126" y="216" fill="#7189a4" font-family="DejaVu Sans Mono,monospace" font-size="11">REASON</text>
+    <text x="270" y="216" fill="#a5b5f9" font-family="DejaVu Sans Mono,monospace" font-size="11">FORECAST</text>
+  </g>
+</svg>
