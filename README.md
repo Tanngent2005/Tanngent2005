@@ -10,6 +10,12 @@
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
+  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="An animated snake eating Tanngent2005's GitHub contributions" />
+</picture>
+
 # Hi there 👋
 
 <img align="right" width="100" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/cxyduck.gif" alt="Coding duck" />
